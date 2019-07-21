@@ -19,15 +19,7 @@ plugins:
   - jekyll-seo-tag
 
 authors:
-    sal:
-      name:           Archana Agarwal
-      site:           https://hi.quora.com/profile/Archana-Agarwal-142
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Editor in Chief @ Aaradhika.com"
-      email:          archana.agwl@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
-
-    jane:
+    ashutoshagarwal:
       name:           Ashutosh Agarwal
       site:           https://twitter.com/aasus
       avatar:         /assets/images/avatar2.jpg
@@ -55,7 +47,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author: archanaagwl
       avatar: /assets/images/avatar1.jpg
 
   # all pages
