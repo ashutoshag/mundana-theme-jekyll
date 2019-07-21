@@ -1,6 +1,6 @@
 # Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+name: 'Aaradhika'
+description: 'मनुष्य के आत्म विकास के लिए जीवन में दैवीय गुणों को ग्रहण करना एकमात्र श्रेष्ठ और सरल उपाय है । इसी सत्य को जानकर चालीस साल पहले मेरी रूचि विभिन्न पुराणों व धार्मिक पुस्तकों को पढ़ने में हुई । उसी ज्ञान को आप सब लोगों को अवगत कराने के पावन उद्देश्य से मैंने यह ब्लॉग लिखने का निर्णय लिया है । आशा करती हूँ कि आप मेरे इस प्रयास से अवश्य ही कुछ नयी जानकारी हासिल करेंगे ।'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
@@ -12,29 +12,29 @@ include: ["_pages"]
 permalink: /:title/
 
 # Plugins
-plugins: 
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  
+
 authors:
     sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
+      name:           Archana Agarwal
+      site:           https://hi.quora.com/profile/Archana-Agarwal-142
       avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
+      bio:            "Editor in Chief @ Aaradhika.com"
+      email:          archana.agwl@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
     jane:
-      name:           Jane
+      name:           Ashutosh Agarwal
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
- 
+      bio:            "CEO, Aaradhika.com"
+      email:          ashutosh.ag.87@gmail.com
+      twitter:        https://twitter.com/aasus
+
 # Defaults
 defaults:
 
@@ -45,13 +45,13 @@ defaults:
       layout: post
       author: sal
       avatar: /assets/images/avatar1.jpg
-      
+
   # all pages
   - scope:
       path: "_pages"
     values:
       layout: page
-      
+
 # Syntax
 markdown: kramdown
 highlighter: rouge
