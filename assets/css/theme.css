@@ -652,7 +652,7 @@ footer {
     margin-top:10px;
 }
 article {
-	font-size:20px;
+	font-size:16px;
 	line-height:1.86;
     font-family:Lora;
 }
@@ -667,26 +667,29 @@ article p,article pre,article figure,article img,article blockquote,article ifra
 	margin-bottom:2rem;
 }
 article blockquote {
-	padding-left:40px;
+	padding-left:20px;
 	margin-left:0px;
-	font-style:italic;
+	/* font-style:italic; */
 	position:relative;
+	background-color:#dcdcdc;
 }
 article blockquote:before {
 	content:"“";
 	font-family:Georgia;
-	font-size:8rem;
-	margin:-1rem 2rem 0 -3.9rem;
+	font-size:4rem;
+	margin:1rem 2rem 0 -1.9rem;
 	position:absolute;
 	opacity:1;
 	float:left;
 	line-height:1;
 }
+/*
 article:first-letter {
 	font-size:20px;
 	line-height:1.86;
     font-family:Lora;
 }
+*/
 /*
 article:first-letter {
 	float:left;
