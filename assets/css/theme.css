@@ -671,13 +671,12 @@ article blockquote {
 	margin-left:0px;
 	/* font-style:italic; */
 	position:relative;
-	background-color:#dcdcdc;
 }
 article blockquote:before {
 	content:"“";
 	font-family:Georgia;
 	font-size:4rem;
-	margin:1rem 2rem 0 -1.9rem;
+	margin:0.5rem 2rem 0 -1.9rem;
 	position:absolute;
 	opacity:1;
 	float:left;
